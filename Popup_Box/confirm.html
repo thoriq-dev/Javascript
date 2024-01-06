@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm Popup Box</title>
+  </head>
+  <body>
+    <script>
+      var x = prompt("Masukkan nilai x");
+      var y = prompt("Masukkan nilai y");
+      var num = parseInt(x);
+      var num2 = parseInt(y);
+      var z = num + num2;
+      alert("Hasil penjumlahan x + y= " + z);
+      var tes = confirm("Apakah Jawab sudah benar?");
+      if (tes === true) {
+        alert("Terimakasih ");
+      } else {
+        alert("Mari kita coba lagi !");
+      }
+    </script>
+  </body>
+</html>
