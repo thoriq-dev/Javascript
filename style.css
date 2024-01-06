@@ -1,0 +1,27 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 50px auto;
+  border: 3px solid grey;
+  border-radius: 50%;
+}
+
+p {
+  font-weight: 800px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: black;
+}
