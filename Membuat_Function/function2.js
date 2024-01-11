@@ -12,5 +12,3 @@ function sisiKeduaSegitiga() {
 }
 
 let hasil = sisiKeduaSegitiga(sisiSegitigaA, sisiSegitigaB);
-
-console.log(hasil);

@@ -2,6 +2,8 @@ function tambah(a, b) {
   return a + b;
 }
 
-var percobaanPertama = tambah(1, 10);
+var a = parseInt(prompt("Masukan Nilai Pertama : "));
+var b = parseInt(prompt("Masukan Nilai Kedua : "));
+var hasil = tambah(a, b);
 
-alert(percobaanPertama);
+alert(hasil);
