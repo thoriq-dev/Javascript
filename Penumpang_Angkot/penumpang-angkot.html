@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/logo-wpu.png" />
+    <title>Penumpang Angkot 🚗</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pengelolaan Penumpang Angkot 🚗</h1>
+    <h2>Penumpang Naik</h2>
+    <ul>
+      <li>Tambah Penumpang</li>
+      <ol>
+        <li>2 Parameter :</li>
+        <ul>
+          <li>namaPenumpang</li>
+          <li>arrayPenumpang</li>
+        </ul>
+        <li>Rules :</li>
+        <ul>
+          <li>Jika angkot kosong, penumpang naik duduk dikursi pertama.</li>
+          <li>
+            Penumpang berikutnya pasti duduk di kursi selanjutnya secara
+            berurutan.
+          </li>
+          <li>
+            Jika ada kursi kosong (karena penumpang turun), penumpang yang naik
+            berikutnya duduk di kursi kosong terlebih dahulu.
+          </li>
+          <li>
+            Asumsi kursi tidak akan penuh dan akan bertambah terus jika ada
+            penumpang naik.
+          </li>
+          <li>
+            Nama penumpang tidak boleh sama, untuk menghindari kebingungan
+            ketika nanti penumpang turun.
+          </li>
+          <ul>
+            <li>
+              Ketika ada nama penumpang yang sama kita anggap dia adalah orang
+              yang sama.
+            </li>
+          </ul>
+        </ul>
+      </ol>
+    </ul>
+    <script src="test.js"></script>
+  </body>
+</html>
