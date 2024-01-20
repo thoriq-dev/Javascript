@@ -1,4 +1,4 @@
-let penumpang = ["Thoriq", undefined, "Micko"];
+let penumpang = [];
 
 let tambahPenumpang = function (namaPenumpang, penumpang) {
   // Jika angkot kosong
@@ -34,3 +34,20 @@ let tambahPenumpang = function (namaPenumpang, penumpang) {
     }
   }
 };
+
+function hapusPenumpang(namaPenumpang, penumpang) {
+  if (penumpang.length == 0) {
+    console.log("Angkot masih kosong");
+  } else {
+    for (let i = 0; i < penumpang.length; i++) {
+      if (penumpang[i] == namaPenumpang) {
+        penumpang[i] = undefined;
+        return penumpang;
+      } else if (i == penumpang.length - 1) {
+        console.log(namaPenumpang + "Tidak ada didalam angkot");
+        return penumpang;
+      }
+    }
+  }
+  return penumpang;
+}
